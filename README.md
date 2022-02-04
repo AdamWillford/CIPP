@@ -12,7 +12,7 @@
 
 <hr>
 
-<center><h1>Sponsored by</h1></center>
+<center><h1>Sponsoredby</h1></center>
 <p align="center">
 
 ![OIT](github_assets/img/oitpsonsor_light.png)&nbsp;&nbsp;&nbsp;&nbsp;
