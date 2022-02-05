@@ -25,7 +25,8 @@ import { faCircleNotch } from '@fortawesome/free-solid-svg-icons'
 const EditTenant = () => {
   const dispatch = useDispatch()
   let query = useQuery()
-  const tenantDomain = query.get('tenantDomain')
+  const tenantDomain = query.get('tenantFilter')
+  const customerId = query.get('customerId')
   const [queryError, setQueryError] = useState(false)
   const [genericPostRequest, postResults] = useLazyGenericPostRequestQuery()
 
@@ -48,13 +49,12 @@ const EditTenant = () => {
 
   const onSubmit = (values) => {
     const shippedValues = {
-      Tenant: tenantDomain,
-      tenantDisplayName: values.displayName,
-      tnenatDefaultDomainName: values.defaultDomainName,
+      tenantid: tenantDomain,
+      displayName: values.displayName,
+      defaultDomainName: values.defaultDomainName,
+      customerId: customerId,
     }
-    window.alert(JSON.stringify(shippedValues))
     genericPostRequest({ path: '/api/EditTenant', values: shippedValues })
-    console.log(postResults.data.Results)
   }
   const initialValues = {
     ...tenant[0],
