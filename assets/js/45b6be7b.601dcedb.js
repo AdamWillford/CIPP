@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcipp_docs=self.webpackChunkcipp_docs||[]).push([[9799],{271:function(e){e.exports=JSON.parse('{"permalink":"/releases/tags/cipp-api","page":1,"postsPerPage":8,"totalPages":1,"totalCount":8,"previousPage":null,"nextPage":null,"blogDescription":"CIPP release notes and updates...","blogTitle":"Releases"}')}}]);
