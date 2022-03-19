@@ -9,7 +9,7 @@ slug: /faq
 <!-- vale Microsoft.HeadingAcronyms = NO -->
 <!-- vale Microsoft.HeadingPunctuation = NO -->
 
-On this page you can find a list of frequently asked questions about the CyberDrain Improved Partner Portal (CIPP). If you're having specific issues with CIPP please also check the [Troubleshooting](/troubleshooting) page.
+On this page you can find a list of frequently asked questions about the CyberDrain Improved Partner Portal (CIPP). If you're having specific issues with CIPP please also check the [Troubleshooting](/general/troubleshooting) page.
 
 <details>
 <summary>
